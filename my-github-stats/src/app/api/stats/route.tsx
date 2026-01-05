@@ -115,115 +115,127 @@ export async function GET(req: NextRequest) {
     const prs = data.pullRequests.totalCount;
     const rank = calculateRank(commits, prs);
 
-    // --- RENDERIZAÇÃO ---
+    // --- RENDERIZAÇÃO ALTA DEFINIÇÃO ---
     
     return new ImageResponse(
       (
-        <div
-          style={{
-            height: '100%',
+        // CONTAINER EXTERNO (Preenche os 1100x560)
+        <div style={{
             width: '100%',
+            height: '100%',
             display: 'flex',
-            flexDirection: 'column',
-            backgroundColor: '#030712',
-            border: '1px solid #333',
-            borderRadius: '16px',
-            fontFamily: 'sans-serif',
-            position: 'relative',
-            overflow: 'hidden',
-            padding: '20px',
-          }}
-        >
-          {/* Background FX */}
-          <div style={{ position: 'absolute', top: 0, right: 0, width: '300px', height: '300px', background: `radial-gradient(circle, ${rank.color}22 0%, transparent 70%)`, opacity: 0.5, display: 'flex' }} />
-          
-          {/* Header */}
-          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', width: '100%', marginBottom: '20px' }}>
-             <div style={{ display: 'flex', flexDirection: 'column' }}>
-                <span style={{ color: '#fff', fontSize: 22, fontWeight: 800, letterSpacing: '1px' }}>
-                  {displayName.toUpperCase()}
-                </span>
-                <span style={{ color: '#8899a6', fontSize: 10, letterSpacing: '2px', fontWeight: 600 }}>
-                  FULL STACK DEVELOPER
-                </span>
-             </div>
-             {/* Rank Badge */}
-             <div style={{ 
-               display: 'flex', 
-               alignItems: 'center', 
-               justifyContent: 'center',
-               border: `2px solid ${rank.color}`,
-               borderRadius: '8px',
-               padding: '2px 12px',
-               boxShadow: `0 0 15px ${rank.color}44`,
-               backgroundColor: 'rgba(0,0,0,0.5)'
-             }}>
-               <span style={{ fontSize: 12, color: rank.color, marginRight: 5, fontWeight: 700 }}>RANK</span>
-               <span style={{ fontSize: 24, color: rank.color, fontWeight: 900, textShadow: `0 0 10px ${rank.color}` }}>
-                 {rank.label}
-               </span>
-             </div>
-          </div>
-
-          {/* Main Content Grid */}
-          <div style={{ display: 'flex', gap: '20px', flex: 1 }}>
+            backgroundColor: '#030712', // Cor de fundo movida para cá
+        }}>
+            {/* CONTAINER INTERNO (Escala 2x o seu design original) */}
+            <div
+            style={{
+                width: '550px', // Largura original lógica
+                height: '280px', // Altura original lógica
+                display: 'flex',
+                flexDirection: 'column',
+                // O SEGREDO ESTÁ AQUI: Scale 2x
+                transform: 'scale(2)',
+                transformOrigin: 'top left',
+                // Estilos originais do seu card:
+                border: '1px solid #333',
+                borderRadius: '16px',
+                fontFamily: 'sans-serif',
+                position: 'relative',
+                overflow: 'hidden',
+                padding: '20px',
+            }}
+            >
+            {/* Background FX */}
+            <div style={{ position: 'absolute', top: 0, right: 0, width: '300px', height: '300px', background: `radial-gradient(circle, ${rank.color}22 0%, transparent 70%)`, opacity: 0.5, display: 'flex' }} />
             
-            {/* Left Column: Stats */}
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', flex: 1 }}>
-               <div style={statBoxStyle}>
-                  <span style={labelStyle}>COMMITS (1 ANO)</span>
-                  <span style={valueStyle}>{commits}</span>
-               </div>
-               <div style={statBoxStyle}>
-                  <span style={labelStyle}>PULL REQUESTS</span>
-                  <span style={valueStyle}>{prs}</span>
-               </div>
+            {/* Header */}
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', width: '100%', marginBottom: '20px' }}>
+                <div style={{ display: 'flex', flexDirection: 'column' }}>
+                    <span style={{ color: '#fff', fontSize: 22, fontWeight: 800, letterSpacing: '1px' }}>
+                    {displayName.toUpperCase()}
+                    </span>
+                    <span style={{ color: '#8899a6', fontSize: 10, letterSpacing: '2px', fontWeight: 600 }}>
+                    FULL STACK DEVELOPER
+                    </span>
+                </div>
+                {/* Rank Badge */}
+                <div style={{ 
+                display: 'flex', 
+                alignItems: 'center', 
+                justifyContent: 'center',
+                border: `2px solid ${rank.color}`,
+                borderRadius: '8px',
+                padding: '2px 12px',
+                boxShadow: `0 0 15px ${rank.color}44`,
+                backgroundColor: 'rgba(0,0,0,0.5)'
+                }}>
+                <span style={{ fontSize: 12, color: rank.color, marginRight: 5, fontWeight: 700 }}>RANK</span>
+                <span style={{ fontSize: 24, color: rank.color, fontWeight: 900, textShadow: `0 0 10px ${rank.color}` }}>
+                    {rank.label}
+                </span>
+                </div>
             </div>
 
-            {/* Right Column: Languages with Icons */}
-            <div style={{ display: 'flex', flexDirection: 'column', flex: 1.5, justifyContent: 'space-between' }}>
-               <span style={{...labelStyle, marginBottom: 10}}>SYSTEM TECHNOLOGIES</span>
-               
-               <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
-                 {topLangs.map((lang) => (
-                   <div key={lang.name} style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                      {/* Icon */}
-                      <img 
-                        src={lang.icon} 
-                        width="20" 
-                        height="20" 
-                        style={{ opacity: 0.9 }}
-                        alt={lang.name}
-                      />
-                      
-                      {/* Bar Container */}
-                      <div style={{ flex: 1, display: 'flex', flexDirection: 'column' }}>
-                        <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '2px' }}>
-                           <span style={{ fontSize: 10, color: '#e5e7eb', fontWeight: 600 }}>{lang.name}</span>
-                           <span style={{ fontSize: 10, color: '#8899a6' }}>{lang.percent}%</span>
-                        </div>
-                        {/* A CORREÇÃO PRINCIPAL FOI AQUI EMBAIXO: Adicionado display: flex */}
-                        <div style={{ width: '100%', height: '4px', background: '#1f2937', borderRadius: '2px', display: 'flex' }}>
-                           <div style={{ 
-                             width: `${lang.percent}%`, 
-                             height: '100%', 
-                             background: lang.color, 
-                             borderRadius: '2px',
-                             boxShadow: `0 0 8px ${lang.color}88`
-                           }} />
-                        </div>
-                      </div>
-                   </div>
-                 ))}
-               </div>
-            </div>
+            {/* Main Content Grid */}
+            <div style={{ display: 'flex', gap: '20px', flex: 1 }}>
+                
+                {/* Left Column: Stats */}
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', flex: 1 }}>
+                <div style={statBoxStyle}>
+                    <span style={labelStyle}>COMMITS (1 ANO)</span>
+                    <span style={valueStyle}>{commits}</span>
+                </div>
+                <div style={statBoxStyle}>
+                    <span style={labelStyle}>PULL REQUESTS</span>
+                    <span style={valueStyle}>{prs}</span>
+                </div>
+                </div>
 
-          </div>
+                {/* Right Column: Languages with Icons */}
+                <div style={{ display: 'flex', flexDirection: 'column', flex: 1.5, justifyContent: 'space-between' }}>
+                <span style={{...labelStyle, marginBottom: 10}}>SYSTEM TECHNOLOGIES</span>
+                
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+                    {topLangs.map((lang) => (
+                    <div key={lang.name} style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                        {/* Icon */}
+                        <img 
+                            src={lang.icon} 
+                            width="20" 
+                            height="20" 
+                            style={{ opacity: 0.9 }}
+                            alt={lang.name}
+                        />
+                        
+                        {/* Bar Container */}
+                        <div style={{ flex: 1, display: 'flex', flexDirection: 'column' }}>
+                            <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '2px' }}>
+                            <span style={{ fontSize: 10, color: '#e5e7eb', fontWeight: 600 }}>{lang.name}</span>
+                            <span style={{ fontSize: 10, color: '#8899a6' }}>{lang.percent}%</span>
+                            </div>
+                            <div style={{ width: '100%', height: '4px', background: '#1f2937', borderRadius: '2px', display: 'flex' }}>
+                            <div style={{ 
+                                width: `${lang.percent}%`, 
+                                height: '100%', 
+                                background: lang.color, 
+                                borderRadius: '2px',
+                                boxShadow: `0 0 8px ${lang.color}88`
+                            }} />
+                            </div>
+                        </div>
+                    </div>
+                    ))}
+                </div>
+                </div>
+
+            </div>
+            </div>
         </div>
       ),
       {
-        width: 550,
-        height: 280,
+        // AQUI ESTÁ A MÁGICA: O DOBRO DO TAMANHO
+        width: 1100,
+        height: 560,
         headers: { 'Cache-Control': 'public, max-age=3600, s-maxage=3600' },
       },
     );
