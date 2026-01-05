@@ -40,7 +40,7 @@ function getIconUrl(langName: string) {
 export async function GET(req: NextRequest) {
   const username = process.env.NEXT_PUBLIC_GITHUB_USERNAME;
   const token = process.env.GITHUB_TOKEN;
-  const displayName = "GENILSSON EMILIO"; 
+  const displayName = "GENISSON EMILIO"; 
 
   if (!username || !token) {
     return new Response("Faltam variáveis de ambiente.", { status: 500 });
