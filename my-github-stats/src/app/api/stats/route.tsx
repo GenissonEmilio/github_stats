@@ -35,7 +35,7 @@ function getIconUrl(langName: string) {
   return `https://cdn.jsdelivr.net/gh/devicons/devicon/icons/${slug}/${slug}-original.svg`;
 }
 
-// --- API ROUTE ---
+// -- API ROUTE --
 
 export async function GET(req: NextRequest) {
   const username = process.env.NEXT_PUBLIC_GITHUB_USERNAME;
