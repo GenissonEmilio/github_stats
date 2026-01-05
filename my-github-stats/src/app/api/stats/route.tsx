@@ -119,24 +119,21 @@ export async function GET(req: NextRequest) {
     
     return new ImageResponse(
       (
-        // CONTAINER EXTERNO (Preenche os 1100x560)
+        // CONTAINER EXTERNO
         <div style={{
             width: '100%',
             height: '100%',
             display: 'flex',
-            backgroundColor: '#030712', // Cor de fundo movida para cá
+            backgroundColor: '#030712',
         }}>
-            {/* CONTAINER INTERNO (Escala 2x o seu design original) */}
             <div
             style={{
-                width: '550px', // Largura original lógica
-                height: '280px', // Altura original lógica
+                width: '550px',
+                height: '280px',
                 display: 'flex',
                 flexDirection: 'column',
-                // O SEGREDO ESTÁ AQUI: Scale 2x
                 transform: 'scale(2)',
                 transformOrigin: 'top left',
-                // Estilos originais do seu card:
                 border: '1px solid #333',
                 borderRadius: '16px',
                 fontFamily: 'sans-serif',
@@ -233,7 +230,6 @@ export async function GET(req: NextRequest) {
         </div>
       ),
       {
-        // AQUI ESTÁ A MÁGICA: O DOBRO DO TAMANHO
         width: 1100,
         height: 560,
         headers: { 'Cache-Control': 'public, max-age=3600, s-maxage=3600' },
