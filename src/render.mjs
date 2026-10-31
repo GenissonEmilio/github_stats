@@ -149,7 +149,18 @@ export function renderQuests(s, theme = 'dark', mobile = false) {
 
 export const RENDERERS = { hero: renderHero, activity: renderActivity, arsenal: renderArsenal, quests: renderQuests };
 
+// GitHub rewrites media expressions containing prefers-color-scheme. Keep the
+// viewport-only source separate and let its embedded SVG inherit color-scheme.
+export function renderMobileAuto(render, snapshot) {
+  const colors = Object.entries(palettes.dark).map(([key, dark]) => ({ key, dark, light: palettes.light[key] }));
+  colors.push(...['#20493f', '#28735b', '#42af86', '#79f0c3'].map((dark, i) => ({ key: `heat${i}`, dark, light: ['#c6e8df', '#78cbb1', '#369c7d', '#087a5a'][i] })));
+  const byHex = new Map(colors.map(color => [color.dark.toLowerCase(), color.key]));
+  const svg = render(snapshot, 'dark', true).replace(/#[0-9a-f]{6}/gi, hex => byHex.has(hex.toLowerCase()) ? `var(--ge-${byHex.get(hex.toLowerCase())})` : hex);
+  const vars = mode => colors.map(color => `--ge-${color.key}:${color[mode]}`).join(';');
+  return svg.replace('<style>', `<style>:root{${vars('dark')}}@media(prefers-color-scheme:light){:root{${vars('light')}}}`);
+}
+
 export function picture(name, repository, alt) {
   const base = `https://raw.githubusercontent.com/${repository}/main/generated/${name}`;
-  return `<picture>\n  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="${base}-mobile-dark.svg">\n  <source media="(max-width: 600px)" srcset="${base}-mobile-light.svg">\n  <source media="(prefers-color-scheme: dark)" srcset="${base}-dark.svg">\n  <img src="${base}-light.svg" width="100%" alt="${escapeXml(alt)}">\n</picture>`;
+  return `<picture>\n  <source media="(max-width: 600px)" srcset="${base}-mobile-auto.svg">\n  <source media="(prefers-color-scheme: dark)" srcset="${base}-dark.svg">\n  <img src="${base}-light.svg" width="100%" alt="${escapeXml(alt)}">\n</picture>`;
 }

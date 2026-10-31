@@ -1,7 +1,6 @@
 <!-- DEVQUEST:HERO:START -->
 <picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/GenissonEmilio/github_stats/main/generated/hero-mobile-dark.svg">
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/GenissonEmilio/github_stats/main/generated/hero-mobile-light.svg">
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/GenissonEmilio/github_stats/main/generated/hero-mobile-auto.svg">
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/GenissonEmilio/github_stats/main/generated/hero-dark.svg">
   <img src="https://raw.githubusercontent.com/GenissonEmilio/github_stats/main/generated/hero-light.svg" width="100%" alt="Genisson Emilio — Full Stack Developer. Nível, patente e XP da jornada no GitHub.">
 </picture>
@@ -41,22 +40,19 @@ Dados reais do GitHub, com progressão, conquistas e próximos objetivos. O XP �
 
 <!-- DEVQUEST:STATS:START -->
 <picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/GenissonEmilio/github_stats/main/generated/activity-mobile-dark.svg">
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/GenissonEmilio/github_stats/main/generated/activity-mobile-light.svg">
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/GenissonEmilio/github_stats/main/generated/activity-mobile-auto.svg">
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/GenissonEmilio/github_stats/main/generated/activity-dark.svg">
   <img src="https://raw.githubusercontent.com/GenissonEmilio/github_stats/main/generated/activity-light.svg" width="100%" alt="Atividade anual: contribuições, commits, pull requests, revisões, mapa de atividade e sequência de dias.">
 </picture>
 
 <picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/GenissonEmilio/github_stats/main/generated/arsenal-mobile-dark.svg">
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/GenissonEmilio/github_stats/main/generated/arsenal-mobile-light.svg">
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/GenissonEmilio/github_stats/main/generated/arsenal-mobile-auto.svg">
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/GenissonEmilio/github_stats/main/generated/arsenal-dark.svg">
   <img src="https://raw.githubusercontent.com/GenissonEmilio/github_stats/main/generated/arsenal-light.svg" width="100%" alt="Arsenal de linguagens e alcance: repositórios públicos originais, estrelas, seguidores e forks.">
 </picture>
 
 <picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/GenissonEmilio/github_stats/main/generated/quests-mobile-dark.svg">
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/GenissonEmilio/github_stats/main/generated/quests-mobile-light.svg">
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/GenissonEmilio/github_stats/main/generated/quests-mobile-auto.svg">
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/GenissonEmilio/github_stats/main/generated/quests-dark.svg">
   <img src="https://raw.githubusercontent.com/GenissonEmilio/github_stats/main/generated/quests-light.svg" width="100%" alt="Conquistas desbloqueadas, progresso para o próximo nível e missões de repositórios e estrelas.">
 </picture>

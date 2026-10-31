@@ -3,7 +3,7 @@ import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { collectProfile } from '../src/github.mjs';
 import { createSnapshot } from '../src/progression.mjs';
-import { RENDERERS, picture } from '../src/render.mjs';
+import { RENDERERS, picture, renderMobileAuto } from '../src/render.mjs';
 
 const root = dirname(dirname(fileURLToPath(import.meta.url)));
 const config = JSON.parse(await readFile(join(root, 'profile.config.json'), 'utf8'));
@@ -25,6 +25,7 @@ try {
     for (const theme of ['dark', 'light']) for (const mobile of [false, true]) {
       await writeFile(join(stage, `${name}${mobile ? '-mobile' : ''}-${theme}.svg`), render(snapshot, theme, mobile));
     }
+    await writeFile(join(stage, `${name}-mobile-auto.svg`), renderMobileAuto(render, snapshot));
   }
   await writeFile(join(stage, 'stats.json'), JSON.stringify(snapshot, null, 2) + '\n');
   const embed = Object.keys(RENDERERS).map(name => picture(name, config.repository, `DevQuest · ${name}`)).join('\n\n');

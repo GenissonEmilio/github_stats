@@ -5,36 +5,32 @@ Seu GitHub como uma jornada de desenvolvimento: XP acumulado, níveis, patentes,
 [Ver no perfil](https://github.com/GenissonEmilio) · [Atualizações automáticas](https://github.com/GenissonEmilio/github_stats/actions/workflows/update-profile.yml) · [Dados](generated/stats.json)
 
 <picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="generated/hero-mobile-dark.svg">
-  <source media="(max-width: 600px)" srcset="generated/hero-mobile-light.svg">
+  <source media="(max-width: 600px)" srcset="generated/hero-mobile-auto.svg">
   <source media="(prefers-color-scheme: dark)" srcset="generated/hero-dark.svg">
   <img src="generated/hero-light.svg" width="100%" alt="Genisson Emilio: nível, patente e XP">
 </picture>
 
 <picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="generated/activity-mobile-dark.svg">
-  <source media="(max-width: 600px)" srcset="generated/activity-mobile-light.svg">
+  <source media="(max-width: 600px)" srcset="generated/activity-mobile-auto.svg">
   <source media="(prefers-color-scheme: dark)" srcset="generated/activity-dark.svg">
   <img src="generated/activity-light.svg" width="100%" alt="Contribuições, commits, PRs, revisões e mapa de atividade">
 </picture>
 
 <picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="generated/arsenal-mobile-dark.svg">
-  <source media="(max-width: 600px)" srcset="generated/arsenal-mobile-light.svg">
+  <source media="(max-width: 600px)" srcset="generated/arsenal-mobile-auto.svg">
   <source media="(prefers-color-scheme: dark)" srcset="generated/arsenal-dark.svg">
   <img src="generated/arsenal-light.svg" width="100%" alt="Linguagens, repositórios, estrelas, seguidores e forks">
 </picture>
 
 <picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="generated/quests-mobile-dark.svg">
-  <source media="(max-width: 600px)" srcset="generated/quests-mobile-light.svg">
+  <source media="(max-width: 600px)" srcset="generated/quests-mobile-auto.svg">
   <source media="(prefers-color-scheme: dark)" srcset="generated/quests-dark.svg">
   <img src="generated/quests-light.svg" width="100%" alt="Conquistas e próximas missões">
 </picture>
 
 ## Funcionamento
 
-Node.js 22+, sem instalação de pacotes. A API GraphQL fornece os dados e o gerador desenha 16 SVGs autossuficientes. O README escolhe automaticamente tema claro/escuro e composição para celular/desktop. Não há fontes, avatares ou ícones externos nas imagens.
+Node.js 22+, sem instalação de pacotes. A API GraphQL fornece os dados e o gerador desenha 20 SVGs autossuficientes. O README escolhe automaticamente tema claro/escuro e composição para celular/desktop. Não há fontes, avatares ou ícones externos nas imagens.
 
 O GitHub Actions solicita atualização diária às **07:17 de Fortaleza (10:17 UTC)**, em alterações no gerador e por **Actions → Update DevQuest → Run workflow**. O GitHub pode atrasar execuções ou desabilitar agendas de repositórios públicos após 60 dias sem atividade. Se a API falhar, o último painel publicado permanece disponível, com a data no rodapé.
 
@@ -92,7 +88,7 @@ O aplicativo Next.js original foi preservado em [`my-github-stats/`](my-github-s
 
 ## Validação
 
-Testes cobrem limites de níveis, XP, conquistas, troca de usuário, sequências e ano bissexto, paginação, exclusão de privados, falhas da API, percentuais e as 16 variantes. `npm run check` verifica os artefatos antes da publicação.
+Testes cobrem limites de níveis, XP, conquistas, troca de usuário, sequências e ano bissexto, paginação, exclusão de privados, falhas da API, percentuais e as 20 variantes. `npm run check` verifica os artefatos antes da publicação.
 
 Licença [MIT](LICENSE).
 

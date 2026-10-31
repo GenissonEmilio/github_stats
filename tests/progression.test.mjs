@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { progression, activity, createSnapshot } from '../src/progression.mjs';
-import { RENDERERS, escapeXml, picture } from '../src/render.mjs';
+import { RENDERERS, escapeXml, picture, renderMobileAuto } from '../src/render.mjs';
 
 const now = new Date('2026-10-31T18:00:00Z');
 const config = { username: 'GenissonEmilio', displayName: 'Genisson <Emilio>', className: 'Full Stack', tagline: 'Código & café', specialties: ['WEB', 'IA', 'GAMES'], repository: 'GenissonEmilio/github_stats' };
@@ -83,4 +83,17 @@ test('16 variantes escapam dados e são imagens sem dependências externas', () 
   }
   assert.equal(escapeXml('<x a="1">&\''), '&lt;x a=&quot;1&quot;&gt;&amp;&apos;');
   assert.match(picture('hero', config.repository, 'A & B'), /A &amp; B/);
+});
+test('fonte mobile evita reescrita de media composta pelo GitHub e herda tema', () => {
+  const s = createSnapshot(raw(), config, {}, now);
+  const embed = picture('hero', config.repository, 'Player');
+  assert.doesNotMatch(embed, /and \(prefers-color-scheme/);
+  assert.match(embed, /media="\(max-width: 600px\)" srcset="[^\"]+-mobile-auto.svg"/);
+  for (const render of Object.values(RENDERERS)) {
+    const svg = renderMobileAuto(render, s);
+    assert.match(svg, /@media\(prefers-color-scheme:light\)/);
+    assert.match(svg, /fill="var\(--ge-bg\)"/);
+    assert.match(svg, /width="480"/);
+    assert.doesNotMatch(svg, /undefined|NaN/);
+  }
 });
