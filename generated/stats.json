@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-03T17:51:28.280Z",
+  "generatedAt": "2026-11-04T17:59:37.674Z",
   "joinedYear": 2022,
   "config": {
     "username": "GenissonEmilio",
@@ -15,30 +15,30 @@
     "repository": "GenissonEmilio/github_stats"
   },
   "stats": {
-    "contributions": 938,
-    "commits": 506,
+    "contributions": 944,
+    "commits": 510,
     "prs": 48,
     "issues": 7,
     "reviews": 0,
-    "repositories": 51,
+    "repositories": 52,
     "stars": 37,
     "forks": 5,
-    "followers": 42
+    "followers": 46
   },
   "lifetime": {
-    "commits": 1081,
+    "commits": 1085,
     "prs": 128,
     "issues": 10,
     "reviews": 0
   },
   "progression": {
-    "xp": 16080,
-    "earned": 16080,
+    "xp": 16120,
+    "earned": 16120,
     "level": 13,
     "floor": 14400,
     "ceiling": 16900,
-    "remaining": 820,
-    "progress": 0.672,
+    "remaining": 780,
+    "progress": 0.688,
     "rank": {
       "level": 10,
       "code": "C",
@@ -51,13 +51,9 @@
     }
   },
   "activity": {
-    "current": 16,
+    "current": 1,
     "best": 16,
     "recent": [
-      {
-        "date": "2026-07-15",
-        "count": 0
-      },
       {
         "date": "2026-07-16",
         "count": 6
@@ -501,17 +497,17 @@
       {
         "date": "2026-11-03",
         "count": 0
+      },
+      {
+        "date": "2026-11-04",
+        "count": 6
       }
     ],
-    "activeDays": 141,
-    "last30": 391,
-    "last7": 170
+    "activeDays": 142,
+    "last30": 395,
+    "last7": 131
   },
   "calendar": [
-    {
-      "date": "2025-11-03",
-      "contributionCount": 0
-    },
     {
       "date": "2025-11-04",
       "contributionCount": 0
@@ -1971,246 +1967,250 @@
     {
       "date": "2026-11-03",
       "contributionCount": 0
+    },
+    {
+      "date": "2026-11-04",
+      "contributionCount": 6
     }
   ],
   "languages": [
     {
       "name": "C++",
       "color": "#f34b7d",
-      "bytes": 119292618,
-      "repositories": 12,
-      "percent": 56.11629917153952
+      "bytes": 123781834,
+      "repositories": 13,
+      "percent": 56.96929541766406
     },
     {
       "name": "C",
       "color": "#555555",
       "bytes": 33575837,
       "repositories": 9,
-      "percent": 15.794369723924124
+      "percent": 15.452928068171417
     },
     {
       "name": "Python",
       "color": "#3572A5",
-      "bytes": 33550283,
-      "repositories": 22,
-      "percent": 15.78234889704421
+      "bytes": 33551197,
+      "repositories": 23,
+      "percent": 15.4415877656914
     },
     {
       "name": "HTML",
       "color": "#e34c26",
       "bytes": 9452197,
       "repositories": 18,
-      "percent": 4.446396797833109
+      "percent": 4.350274881522259
     },
     {
       "name": "C#",
       "color": "#7355dd",
       "bytes": 8953786,
       "repositories": 4,
-      "percent": 4.211939869522706
+      "percent": 4.1208864278141535
     },
     {
       "name": "CMake",
       "color": "#DA3434",
-      "bytes": 3438711,
-      "repositories": 11,
-      "percent": 1.6175999695175087
+      "bytes": 3444994,
+      "repositories": 12,
+      "percent": 1.585522483841047
     },
     {
       "name": "TypeScript",
       "color": "#3178c6",
-      "bytes": 981285,
+      "bytes": 1030023,
       "repositories": 13,
-      "percent": 0.46160511484913636
+      "percent": 0.47405732067266493
     },
     {
       "name": "JavaScript",
       "color": "#f1e05a",
-      "bytes": 601776,
+      "bytes": 683704,
       "repositories": 23,
-      "percent": 0.283080735559449
+      "percent": 0.31466762040574214
     },
     {
       "name": "Java",
       "color": "#b07219",
-      "bytes": 450404,
-      "repositories": 12,
-      "percent": 0.2118740122884895
+      "bytes": 473383,
+      "repositories": 13,
+      "percent": 0.21786957828319187
     },
     {
       "name": "Lua",
       "color": "#000080",
       "bytes": 442398,
       "repositories": 1,
-      "percent": 0.2081079193088942
+      "percent": 0.20360905586666087
     },
     {
       "name": "CSS",
       "color": "#663399",
-      "bytes": 343520,
+      "bytes": 390567,
       "repositories": 23,
-      "percent": 0.16159483641651032
+      "percent": 0.17975437981788828
     },
     {
       "name": "PowerShell",
       "color": "#012456",
       "bytes": 262152,
       "repositories": 10,
-      "percent": 0.1233186118894417
+      "percent": 0.12065271817132284
     },
     {
       "name": "Assembly",
       "color": "#6E4C13",
       "bytes": 261870,
       "repositories": 2,
-      "percent": 0.12318595660337552
+      "percent": 0.12052293061858889
     },
     {
       "name": "Shell",
       "color": "#89e051",
       "bytes": 224202,
       "repositories": 13,
-      "percent": 0.1054665973284072
+      "percent": 0.1031866272980825
     },
     {
       "name": "Objective-C++",
       "color": "#6866fb",
       "bytes": 120949,
       "repositories": 1,
-      "percent": 0.05689547586673413
+      "percent": 0.055665513175956416
     },
     {
       "name": "Blade",
       "color": "#f7523f",
       "bytes": 120376,
       "repositories": 1,
-      "percent": 0.05662593161525921
+      "percent": 0.05540179591455018
     },
     {
       "name": "PLpgSQL",
       "color": "#336790",
       "bytes": 103614,
       "repositories": 1,
-      "percent": 0.04874093904419044
+      "percent": 0.0476872605992075
     },
     {
       "name": "HLSL",
       "color": "#aace60",
       "bytes": 82456,
       "repositories": 2,
-      "percent": 0.03878802931869985
+      "percent": 0.0379495122277709
     },
     {
       "name": "PHP",
       "color": "#4F5D95",
       "bytes": 81495,
       "repositories": 1,
-      "percent": 0.038335966446679984
+      "percent": 0.037507222021468285
     },
     {
       "name": "Batchfile",
       "color": "#C1F12E",
       "bytes": 78469,
       "repositories": 5,
-      "percent": 0.036912509369955604
+      "percent": 0.03611453714709608
     },
     {
       "name": "WGSL",
       "color": "#1a5e9a",
       "bytes": 34973,
       "repositories": 1,
-      "percent": 0.016451607516286142
+      "percent": 0.01609595773675453
     },
     {
       "name": "Pawn",
       "color": "#dbb284",
       "bytes": 23344,
       "repositories": 2,
-      "percent": 0.010981223396911438
+      "percent": 0.010743832024899144
     },
     {
       "name": "GLSL",
       "color": "#5686a5",
       "bytes": 22234,
       "repositories": 3,
-      "percent": 0.010459069611331771
+      "percent": 0.01023296612583994
     },
     {
       "name": "Dart",
       "color": "#00B4AB",
       "bytes": 20620,
       "repositories": 1,
-      "percent": 0.009699829782569988
+      "percent": 0.009490139494234936
     },
     {
       "name": "Dockerfile",
       "color": "#384d54",
       "bytes": 14724,
       "repositories": 10,
-      "percent": 0.006926299404391878
+      "percent": 0.006776567115088031
     },
     {
       "name": "Linker Script",
       "color": "#9b8afb",
       "bytes": 14671,
       "repositories": 2,
-      "percent": 0.006901367737152489
+      "percent": 0.0067521744190068254
     },
     {
       "name": "Makefile",
       "color": "#427819",
       "bytes": 11763,
       "repositories": 1,
-      "percent": 0.005533418900696934
+      "percent": 0.005413797811381452
     },
     {
       "name": "NASL",
       "color": "#9b8afb",
       "bytes": 9534,
       "repositories": 2,
-      "percent": 0.004484877650195066
+      "percent": 0.004387923857324728
     },
     {
       "name": "Inno Setup",
       "color": "#264b99",
       "bytes": 4819,
       "repositories": 1,
-      "percent": 0.0022669000835210855
+      "percent": 0.002217894385194867
     },
     {
       "name": "BitBake",
       "color": "#00bce4",
       "bytes": 2625,
       "repositories": 1,
-      "percent": 0.0012348231415735317
+      "percent": 0.0012081288153427113
     },
     {
       "name": "Swift",
       "color": "#F05138",
       "bytes": 2036,
       "repositories": 1,
-      "percent": 0.0009577523490452229
+      "percent": 0.000937047721157242
     },
     {
       "name": "GDScript",
       "color": "#355570",
       "bytes": 1148,
       "repositories": 1,
-      "percent": 0.0005400293205814912
+      "percent": 0.000528355001909879
     },
     {
       "name": "Kotlin",
       "color": "#A97BFF",
       "bytes": 123,
       "repositories": 1,
-      "percent": 0.00005786028434801691
+      "percent": 0.000056609464490344184
     },
     {
       "name": "Objective-C",
       "color": "#438eff",
       "bytes": 38,
       "repositories": 1,
-      "percent": 0.000017875535001826363
+      "percent": 0.00001748910285067544
     }
   ],
   "achievements": [
@@ -2218,7 +2218,7 @@
       "id": "first-code",
       "title": "Hello, world",
       "description": "1 commit na jornada",
-      "value": 1081,
+      "value": 1085,
       "target": 1,
       "icon": "code",
       "unlockedAt": "2026-10-31"
@@ -2227,7 +2227,7 @@
       "id": "builder",
       "title": "World builder",
       "description": "25 repositórios originais",
-      "value": 51,
+      "value": 52,
       "target": 25,
       "icon": "box",
       "unlockedAt": "2026-10-31"
@@ -2272,13 +2272,13 @@
   "quests": [
     {
       "title": "Próximo nível",
-      "value": 1680,
+      "value": 1720,
       "target": 2500,
-      "detail": "820 XP para o nível 14"
+      "detail": "780 XP para o nível 14"
     },
     {
       "title": "Construa o próximo mundo",
-      "value": 51,
+      "value": 52,
       "target": 75,
       "detail": "Repositórios públicos e originais"
     },
