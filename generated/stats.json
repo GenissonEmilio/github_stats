@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-07T16:26:37.947Z",
+  "generatedAt": "2026-11-08T16:40:45.920Z",
   "joinedYear": 2022,
   "config": {
     "username": "GenissonEmilio",
@@ -15,14 +15,14 @@
     "repository": "GenissonEmilio/github_stats"
   },
   "stats": {
-    "contributions": 980,
-    "commits": 515,
+    "contributions": 979,
+    "commits": 514,
     "prs": 48,
     "issues": 8,
     "reviews": 0,
     "repositories": 54,
     "stars": 41,
-    "forks": 5,
+    "forks": 6,
     "followers": 46
   },
   "lifetime": {
@@ -54,10 +54,6 @@
     "current": 4,
     "best": 16,
     "recent": [
-      {
-        "date": "2026-07-19",
-        "count": 0
-      },
       {
         "date": "2026-07-20",
         "count": 0
@@ -501,21 +497,17 @@
       {
         "date": "2026-11-07",
         "count": 12
+      },
+      {
+        "date": "2026-11-08",
+        "count": 0
       }
     ],
-    "activeDays": 145,
-    "last30": 429,
-    "last7": 75
+    "activeDays": 143,
+    "last30": 427,
+    "last7": 43
   },
   "calendar": [
-    {
-      "date": "2025-11-07",
-      "contributionCount": 1
-    },
-    {
-      "date": "2025-11-08",
-      "contributionCount": 3
-    },
     {
       "date": "2025-11-09",
       "contributionCount": 0
@@ -1971,6 +1963,10 @@
     {
       "date": "2026-11-07",
       "contributionCount": 12
+    },
+    {
+      "date": "2026-11-08",
+      "contributionCount": 0
     }
   ],
   "languages": [
