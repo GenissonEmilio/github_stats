@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-22T17:49:58.397Z",
+  "generatedAt": "2026-11-23T22:03:23.372Z",
   "joinedYear": 2022,
   "config": {
     "username": "GenissonEmilio",
@@ -15,30 +15,30 @@
     "repository": "GenissonEmilio/github_stats"
   },
   "stats": {
-    "contributions": 1126,
-    "commits": 548,
-    "prs": 61,
+    "contributions": 1120,
+    "commits": 543,
+    "prs": 59,
     "issues": 31,
     "reviews": 1,
     "repositories": 55,
-    "stars": 74,
+    "stars": 77,
     "forks": 6,
     "followers": 47
   },
   "lifetime": {
-    "commits": 1126,
-    "prs": 142,
+    "commits": 1128,
+    "prs": 143,
     "issues": 34,
     "reviews": 1
   },
   "progression": {
-    "xp": 17475,
-    "earned": 17475,
+    "xp": 17535,
+    "earned": 17535,
     "level": 14,
     "floor": 16900,
     "ceiling": 19600,
-    "remaining": 2125,
-    "progress": 0.21296296296296297,
+    "remaining": 2065,
+    "progress": 0.2351851851851852,
     "rank": {
       "level": 10,
       "code": "C",
@@ -51,13 +51,9 @@
     }
   },
   "activity": {
-    "current": 6,
+    "current": 8,
     "best": 16,
     "recent": [
-      {
-        "date": "2026-08-03",
-        "count": 0
-      },
       {
         "date": "2026-08-04",
         "count": 0
@@ -500,12 +496,16 @@
       },
       {
         "date": "2026-11-22",
-        "count": 0
+        "count": 2
+      },
+      {
+        "date": "2026-11-23",
+        "count": 3
       }
     ],
-    "activeDays": 155,
-    "last30": 453,
-    "last7": 98
+    "activeDays": 157,
+    "last30": 436,
+    "last7": 88
   },
   "calendar": [
     {
@@ -1390,7 +1390,7 @@
     },
     {
       "date": "2026-07-01",
-      "contributionCount": 4
+      "contributionCount": 3
     },
     {
       "date": "2026-07-02",
@@ -1966,7 +1966,11 @@
     },
     {
       "date": "2026-11-22",
-      "contributionCount": 0
+      "contributionCount": 2
+    },
+    {
+      "date": "2026-11-23",
+      "contributionCount": 3
     }
   ],
   "languages": [
@@ -2214,7 +2218,7 @@
       "id": "first-code",
       "title": "Hello, world",
       "description": "1 commit na jornada",
-      "value": 1126,
+      "value": 1128,
       "target": 1,
       "icon": "code",
       "unlockedAt": "2026-10-31"
@@ -2241,7 +2245,7 @@
       "id": "collaborator",
       "title": "Co-op mode",
       "description": "10 pull requests na jornada",
-      "value": 142,
+      "value": 143,
       "target": 10,
       "icon": "merge",
       "unlockedAt": "2026-10-31"
@@ -2259,7 +2263,7 @@
       "id": "starlight",
       "title": "Starlight",
       "description": "25 estrelas recebidas",
-      "value": 74,
+      "value": 77,
       "target": 25,
       "icon": "star",
       "unlockedAt": "2026-10-31"
@@ -2268,9 +2272,9 @@
   "quests": [
     {
       "title": "Próximo nível",
-      "value": 575,
+      "value": 635,
       "target": 2700,
-      "detail": "2.125 XP para o nível 15"
+      "detail": "2.065 XP para o nível 15"
     },
     {
       "title": "Construa o próximo mundo",
@@ -2280,7 +2284,7 @@
     },
     {
       "title": "A comunidade reconhece",
-      "value": 74,
+      "value": 77,
       "target": 100,
       "detail": "Estrelas recebidas nos seus projetos"
     }
