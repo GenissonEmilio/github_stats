@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-24T20:40:18.655Z",
+  "generatedAt": "2026-11-25T19:57:01.832Z",
   "joinedYear": 2022,
   "config": {
     "username": "GenissonEmilio",
@@ -15,30 +15,30 @@
     "repository": "GenissonEmilio/github_stats"
   },
   "stats": {
-    "contributions": 1134,
+    "contributions": 1137,
     "commits": 553,
-    "prs": 61,
+    "prs": 62,
     "issues": 32,
     "reviews": 1,
     "repositories": 55,
-    "stars": 80,
+    "stars": 88,
     "forks": 7,
-    "followers": 47
+    "followers": 48
   },
   "lifetime": {
     "commits": 1138,
-    "prs": 145,
+    "prs": 146,
     "issues": 35,
     "reviews": 1
   },
   "progression": {
-    "xp": 17730,
-    "earned": 17730,
+    "xp": 17770,
+    "earned": 17770,
     "level": 14,
     "floor": 16900,
     "ceiling": 19600,
-    "remaining": 1870,
-    "progress": 0.3074074074074074,
+    "remaining": 1830,
+    "progress": 0.32222222222222224,
     "rank": {
       "level": 10,
       "code": "C",
@@ -51,13 +51,9 @@
     }
   },
   "activity": {
-    "current": 9,
+    "current": 10,
     "best": 16,
     "recent": [
-      {
-        "date": "2026-08-05",
-        "count": 1
-      },
       {
         "date": "2026-08-06",
         "count": 0
@@ -501,17 +497,17 @@
       {
         "date": "2026-11-24",
         "count": 2
+      },
+      {
+        "date": "2026-11-25",
+        "count": 3
       }
     ],
-    "activeDays": 158,
-    "last30": 400,
-    "last7": 100
+    "activeDays": 159,
+    "last30": 391,
+    "last7": 99
   },
   "calendar": [
-    {
-      "date": "2025-11-24",
-      "contributionCount": 0
-    },
     {
       "date": "2025-11-25",
       "contributionCount": 0
@@ -1971,6 +1967,10 @@
     {
       "date": "2026-11-24",
       "contributionCount": 2
+    },
+    {
+      "date": "2026-11-25",
+      "contributionCount": 3
     }
   ],
   "languages": [
@@ -2245,7 +2245,7 @@
       "id": "collaborator",
       "title": "Co-op mode",
       "description": "10 pull requests na jornada",
-      "value": 145,
+      "value": 146,
       "target": 10,
       "icon": "merge",
       "unlockedAt": "2026-10-31"
@@ -2263,7 +2263,7 @@
       "id": "starlight",
       "title": "Starlight",
       "description": "25 estrelas recebidas",
-      "value": 80,
+      "value": 88,
       "target": 25,
       "icon": "star",
       "unlockedAt": "2026-10-31"
@@ -2272,9 +2272,9 @@
   "quests": [
     {
       "title": "Próximo nível",
-      "value": 830,
+      "value": 870,
       "target": 2700,
-      "detail": "1.870 XP para o nível 15"
+      "detail": "1.830 XP para o nível 15"
     },
     {
       "title": "Construa o próximo mundo",
@@ -2284,7 +2284,7 @@
     },
     {
       "title": "A comunidade reconhece",
-      "value": 80,
+      "value": 88,
       "target": 100,
       "detail": "Estrelas recebidas nos seus projetos"
     }
