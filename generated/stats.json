@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-25T19:57:01.832Z",
+  "generatedAt": "2026-11-26T19:37:46.280Z",
   "joinedYear": 2022,
   "config": {
     "username": "GenissonEmilio",
@@ -15,30 +15,30 @@
     "repository": "GenissonEmilio/github_stats"
   },
   "stats": {
-    "contributions": 1137,
-    "commits": 553,
-    "prs": 62,
-    "issues": 32,
+    "contributions": 1285,
+    "commits": 698,
+    "prs": 64,
+    "issues": 33,
     "reviews": 1,
     "repositories": 55,
-    "stars": 88,
+    "stars": 104,
     "forks": 7,
     "followers": 48
   },
   "lifetime": {
-    "commits": 1138,
-    "prs": 146,
-    "issues": 35,
+    "commits": 1283,
+    "prs": 148,
+    "issues": 36,
     "reviews": 1
   },
   "progression": {
-    "xp": 17770,
-    "earned": 17770,
+    "xp": 19315,
+    "earned": 19315,
     "level": 14,
     "floor": 16900,
     "ceiling": 19600,
-    "remaining": 1830,
-    "progress": 0.32222222222222224,
+    "remaining": 285,
+    "progress": 0.8944444444444445,
     "rank": {
       "level": 10,
       "code": "C",
@@ -51,13 +51,9 @@
     }
   },
   "activity": {
-    "current": 10,
-    "best": 16,
+    "current": 11,
+    "best": 28,
     "recent": [
-      {
-        "date": "2026-08-06",
-        "count": 0
-      },
       {
         "date": "2026-08-07",
         "count": 0
@@ -384,15 +380,15 @@
       },
       {
         "date": "2026-10-27",
-        "count": 7
+        "count": 10
       },
       {
         "date": "2026-10-28",
-        "count": 45
+        "count": 48
       },
       {
         "date": "2026-10-29",
-        "count": 39
+        "count": 42
       },
       {
         "date": "2026-10-30",
@@ -400,35 +396,35 @@
       },
       {
         "date": "2026-10-31",
-        "count": 25
+        "count": 40
       },
       {
         "date": "2026-11-01",
-        "count": 32
+        "count": 48
       },
       {
         "date": "2026-11-02",
-        "count": 5
+        "count": 10
       },
       {
         "date": "2026-11-03",
-        "count": 0
+        "count": 1
       },
       {
         "date": "2026-11-04",
-        "count": 21
+        "count": 26
       },
       {
         "date": "2026-11-05",
-        "count": 3
+        "count": 7
       },
       {
         "date": "2026-11-06",
-        "count": 2
+        "count": 6
       },
       {
         "date": "2026-11-07",
-        "count": 12
+        "count": 16
       },
       {
         "date": "2026-11-08",
@@ -440,7 +436,7 @@
       },
       {
         "date": "2026-11-10",
-        "count": 6
+        "count": 10
       },
       {
         "date": "2026-11-11",
@@ -448,7 +444,7 @@
       },
       {
         "date": "2026-11-12",
-        "count": 3
+        "count": 7
       },
       {
         "date": "2026-11-13",
@@ -464,31 +460,31 @@
       },
       {
         "date": "2026-11-16",
-        "count": 15
+        "count": 29
       },
       {
         "date": "2026-11-17",
-        "count": 2
+        "count": 7
       },
       {
         "date": "2026-11-18",
-        "count": 4
+        "count": 7
       },
       {
         "date": "2026-11-19",
-        "count": 2
+        "count": 12
       },
       {
         "date": "2026-11-20",
-        "count": 10
+        "count": 20
       },
       {
         "date": "2026-11-21",
-        "count": 65
+        "count": 69
       },
       {
         "date": "2026-11-22",
-        "count": 2
+        "count": 11
       },
       {
         "date": "2026-11-23",
@@ -500,18 +496,18 @@
       },
       {
         "date": "2026-11-25",
-        "count": 3
+        "count": 21
+      },
+      {
+        "date": "2026-11-26",
+        "count": 4
       }
     ],
-    "activeDays": 159,
-    "last30": 391,
-    "last7": 99
+    "activeDays": 161,
+    "last30": 529,
+    "last7": 142
   },
   "calendar": [
-    {
-      "date": "2025-11-25",
-      "contributionCount": 0
-    },
     {
       "date": "2025-11-26",
       "contributionCount": 0
@@ -1854,15 +1850,15 @@
     },
     {
       "date": "2026-10-27",
-      "contributionCount": 7
+      "contributionCount": 10
     },
     {
       "date": "2026-10-28",
-      "contributionCount": 45
+      "contributionCount": 48
     },
     {
       "date": "2026-10-29",
-      "contributionCount": 39
+      "contributionCount": 42
     },
     {
       "date": "2026-10-30",
@@ -1870,35 +1866,35 @@
     },
     {
       "date": "2026-10-31",
-      "contributionCount": 25
+      "contributionCount": 40
     },
     {
       "date": "2026-11-01",
-      "contributionCount": 32
+      "contributionCount": 48
     },
     {
       "date": "2026-11-02",
-      "contributionCount": 5
+      "contributionCount": 10
     },
     {
       "date": "2026-11-03",
-      "contributionCount": 0
+      "contributionCount": 1
     },
     {
       "date": "2026-11-04",
-      "contributionCount": 21
+      "contributionCount": 26
     },
     {
       "date": "2026-11-05",
-      "contributionCount": 3
+      "contributionCount": 7
     },
     {
       "date": "2026-11-06",
-      "contributionCount": 2
+      "contributionCount": 6
     },
     {
       "date": "2026-11-07",
-      "contributionCount": 12
+      "contributionCount": 16
     },
     {
       "date": "2026-11-08",
@@ -1910,7 +1906,7 @@
     },
     {
       "date": "2026-11-10",
-      "contributionCount": 6
+      "contributionCount": 10
     },
     {
       "date": "2026-11-11",
@@ -1918,7 +1914,7 @@
     },
     {
       "date": "2026-11-12",
-      "contributionCount": 3
+      "contributionCount": 7
     },
     {
       "date": "2026-11-13",
@@ -1934,31 +1930,31 @@
     },
     {
       "date": "2026-11-16",
-      "contributionCount": 15
+      "contributionCount": 29
     },
     {
       "date": "2026-11-17",
-      "contributionCount": 2
+      "contributionCount": 7
     },
     {
       "date": "2026-11-18",
-      "contributionCount": 4
+      "contributionCount": 7
     },
     {
       "date": "2026-11-19",
-      "contributionCount": 2
+      "contributionCount": 12
     },
     {
       "date": "2026-11-20",
-      "contributionCount": 10
+      "contributionCount": 20
     },
     {
       "date": "2026-11-21",
-      "contributionCount": 65
+      "contributionCount": 69
     },
     {
       "date": "2026-11-22",
-      "contributionCount": 2
+      "contributionCount": 11
     },
     {
       "date": "2026-11-23",
@@ -1970,247 +1966,251 @@
     },
     {
       "date": "2026-11-25",
-      "contributionCount": 3
+      "contributionCount": 21
+    },
+    {
+      "date": "2026-11-26",
+      "contributionCount": 4
     }
   ],
   "languages": [
     {
       "name": "C++",
       "color": "#f34b7d",
-      "bytes": 128800650,
+      "bytes": 129797135,
       "repositories": 15,
-      "percent": 59.22475835489405
+      "percent": 59.304784546513424
     },
     {
       "name": "Python",
       "color": "#3572A5",
-      "bytes": 33905434,
+      "bytes": 34259302,
       "repositories": 25,
-      "percent": 15.590302809557318
+      "percent": 15.65320007890726
     },
     {
       "name": "C",
       "color": "#555555",
-      "bytes": 33858026,
+      "bytes": 33861412,
       "repositories": 10,
-      "percent": 15.568503794225572
+      "percent": 15.471402686205085
     },
     {
       "name": "C#",
       "color": "#7355dd",
       "bytes": 12113114,
       "repositories": 5,
-      "percent": 5.569818549636854
+      "percent": 5.534525981311955
     },
     {
       "name": "CMake",
       "color": "#DA3434",
-      "bytes": 3589909,
+      "bytes": 3597065,
       "repositories": 14,
-      "percent": 1.6507020192915125
+      "percent": 1.643512122396263
     },
     {
       "name": "Java",
       "color": "#b07219",
       "bytes": 1459049,
       "repositories": 15,
-      "percent": 0.6708958724428007
+      "percent": 0.6666448114421467
     },
     {
       "name": "JavaScript",
       "color": "#f1e05a",
       "bytes": 505790,
       "repositories": 24,
-      "percent": 0.2325709577422308
+      "percent": 0.2310972963754633
     },
     {
       "name": "TypeScript",
       "color": "#3178c6",
       "bytes": 482302,
       "repositories": 12,
-      "percent": 0.2217707705984567
+      "percent": 0.22036554347946521
     },
     {
       "name": "PowerShell",
       "color": "#012456",
-      "bytes": 462555,
-      "repositories": 12,
-      "percent": 0.2126907597193649
+      "bytes": 465263,
+      "repositories": 13,
+      "percent": 0.21258036221265186
     },
     {
       "name": "Lua",
       "color": "#000080",
       "bytes": 442398,
       "repositories": 1,
-      "percent": 0.20342222377517827
+      "percent": 0.20213326028967007
     },
     {
       "name": "Shell",
       "color": "#89e051",
-      "bytes": 366187,
+      "bytes": 385343,
       "repositories": 15,
-      "percent": 0.1683790927119047
+      "percent": 0.17606462262442943
     },
     {
       "name": "HTML",
       "color": "#e34c26",
       "bytes": 319980,
       "repositories": 18,
-      "percent": 0.14713231787571723
+      "percent": 0.14620002944744015
     },
     {
       "name": "Assembly",
       "color": "#6E4C13",
       "bytes": 265704,
       "repositories": 3,
-      "percent": 0.12217527779501708
+      "percent": 0.12140112702138457
     },
     {
       "name": "CSS",
       "color": "#663399",
-      "bytes": 226724,
+      "bytes": 230121,
       "repositories": 23,
-      "percent": 0.10425160209404999
+      "percent": 0.10514312449676347
     },
     {
       "name": "Objective-C++",
       "color": "#6866fb",
-      "bytes": 149622,
+      "bytes": 149448,
       "repositories": 2,
-      "percent": 0.06879877387711908
+      "percent": 0.06828333646121956
     },
     {
       "name": "Blade",
       "color": "#f7523f",
       "bytes": 120376,
       "repositories": 1,
-      "percent": 0.055350959111842415
+      "percent": 0.0550002335919903
     },
     {
       "name": "HLSL",
       "color": "#aace60",
       "bytes": 82456,
       "repositories": 2,
-      "percent": 0.03791468967673023
+      "percent": 0.03767444724082169
     },
     {
       "name": "PHP",
       "color": "#4F5D95",
       "bytes": 81495,
       "repositories": 1,
-      "percent": 0.03747280531683722
+      "percent": 0.03723536283461196
     },
     {
       "name": "Batchfile",
       "color": "#C1F12E",
       "bytes": 78901,
       "repositories": 7,
-      "percent": 0.036280039417188464
+      "percent": 0.036050154770399634
     },
     {
       "name": "WGSL",
       "color": "#1a5e9a",
       "bytes": 34973,
       "repositories": 1,
-      "percent": 0.016081188052589093
+      "percent": 0.015979291299035327
     },
     {
       "name": "Pawn",
       "color": "#dbb284",
       "bytes": 23344,
       "repositories": 2,
-      "percent": 0.01073397346237497
+      "percent": 0.010665958770613921
     },
     {
       "name": "GLSL",
       "color": "#5686a5",
-      "bytes": 22234,
+      "bytes": 22486,
       "repositories": 3,
-      "percent": 0.01022357633492311
+      "percent": 0.010273935440199822
     },
     {
       "name": "Dart",
       "color": "#00B4AB",
       "bytes": 20620,
       "repositories": 1,
-      "percent": 0.00948143132257419
+      "percent": 0.00942135323209643
     },
     {
       "name": "Dockerfile",
       "color": "#384d54",
-      "bytes": 14902,
+      "bytes": 15480,
       "repositories": 11,
-      "percent": 0.006852196390349203
+      "percent": 0.007072868478799842
     },
     {
       "name": "Linker Script",
       "color": "#9b8afb",
       "bytes": 14671,
       "repositories": 2,
-      "percent": 0.006745978609771384
+      "percent": 0.006703233427162306
     },
     {
       "name": "Makefile",
       "color": "#427819",
       "bytes": 11763,
       "repositories": 1,
-      "percent": 0.0054088300992938985
+      "percent": 0.005374557617320578
     },
     {
       "name": "NASL",
       "color": "#9b8afb",
       "bytes": 9534,
       "repositories": 2,
-      "percent": 0.0043838974893027315
+      "percent": 0.0043561193848112205
     },
     {
       "name": "Inno Setup",
       "color": "#264b99",
       "bytes": 4819,
       "repositories": 1,
-      "percent": 0.002215859240712174
+      "percent": 0.0022018186821276767
     },
     {
       "name": "PLpgSQL",
       "color": "#336790",
       "bytes": 4211,
       "repositories": 1,
-      "percent": 0.0019362903636934972
+      "percent": 0.0019240212638388975
     },
     {
       "name": "BitBake",
       "color": "#00bce4",
       "bytes": 2625,
       "repositories": 1,
-      "percent": 0.0012070202338388576
+      "percent": 0.0011993720773158646
     },
     {
       "name": "Swift",
       "color": "#F05138",
       "bytes": 2036,
       "repositories": 1,
-      "percent": 0.000936187884227015
+      "percent": 0.0009302558283486098
     },
     {
       "name": "GDScript",
       "color": "#355570",
       "bytes": 1148,
       "repositories": 1,
-      "percent": 0.0005278701822655272
+      "percent": 0.0005245253884794714
     },
     {
       "name": "Kotlin",
       "color": "#A97BFF",
       "bytes": 123,
       "repositories": 1,
-      "percent": 0.000056557519528449335
+      "percent": 0.000056199148765657665
     },
     {
       "name": "Objective-C",
       "color": "#438eff",
       "bytes": 38,
       "repositories": 1,
-      "percent": 0.000017473054813667274
+      "percent": 0.000017362338643048706
     }
   ],
   "achievements": [
@@ -2218,7 +2218,7 @@
       "id": "first-code",
       "title": "Hello, world",
       "description": "1 commit na jornada",
-      "value": 1138,
+      "value": 1283,
       "target": 1,
       "icon": "code",
       "unlockedAt": "2026-10-31"
@@ -2245,7 +2245,7 @@
       "id": "collaborator",
       "title": "Co-op mode",
       "description": "10 pull requests na jornada",
-      "value": 146,
+      "value": 148,
       "target": 10,
       "icon": "merge",
       "unlockedAt": "2026-10-31"
@@ -2254,7 +2254,7 @@
       "id": "streak",
       "title": "Em sequência",
       "description": "7 dias seguidos de atividade",
-      "value": 16,
+      "value": 28,
       "target": 7,
       "icon": "bolt",
       "unlockedAt": "2026-10-31"
@@ -2263,7 +2263,7 @@
       "id": "starlight",
       "title": "Starlight",
       "description": "25 estrelas recebidas",
-      "value": 88,
+      "value": 104,
       "target": 25,
       "icon": "star",
       "unlockedAt": "2026-10-31"
@@ -2272,9 +2272,9 @@
   "quests": [
     {
       "title": "Próximo nível",
-      "value": 870,
+      "value": 2415,
       "target": 2700,
-      "detail": "1.830 XP para o nível 15"
+      "detail": "285 XP para o nível 15"
     },
     {
       "title": "Construa o próximo mundo",
@@ -2284,8 +2284,8 @@
     },
     {
       "title": "A comunidade reconhece",
-      "value": 88,
-      "target": 100,
+      "value": 104,
+      "target": 200,
       "detail": "Estrelas recebidas nos seus projetos"
     }
   ]
